@@ -1,0 +1,69 @@
+html {
+    box-sizing: border-box;
+    font-size: 85%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    color: #302880;
+    line-height: 2rem;
+    text-align: center;
+}
+
+.header-color {
+    font-size: 3rem;
+}
+
+@media (min-width: 768px) {
+    .header-color {
+        font-size: 5rem;
+    }
+}
+
+.header-color span {
+    color: #468779;
+}
+
+.container-type-color {
+    border-top: .1rem solid #726c6c;
+}
+
+.nav-principal {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .nav-principal {
+        justify-content: space-around;
+        flex-direction: row;
+    }
+}
+
+.nav-principal .btnColors, .btnHex {
+    background-color: #468779;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 100;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+    transition: background-color .2s ease-in;
+}
+
+.nav-principal .btnColors:hover {
+    background-color: #817ea0;
+    cursor: pointer;
+}
+
+.nav-principal .btnHex:hover {
+    background-color: #817ea0;
+    cursor: pointer;
+}
