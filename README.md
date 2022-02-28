@@ -8,9 +8,12 @@ I used some css, to make the title and buttons responsive, the textarea where th
 **Important concepts covered in this project:**
 
           document.querySelector();
-          element.addEventListener('', () => {});
-          array.push();
-          array.sort();
+	document.createElement();
+	element.appendChild();
+	element.insertBefore();
+	element.addEventListener('', () => {});
+	Math.round();
+	Math.ramdom();
 
 
 ![image](https://user-images.githubusercontent.com/81515650/155885684-c94ab42c-ddbf-4779-9556-9fc5653b5647.png)
